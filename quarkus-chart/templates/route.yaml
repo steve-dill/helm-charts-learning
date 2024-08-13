@@ -1,0 +1,21 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: code-with-quarkus
+    app.kubernetes.io/component: code-with-quarkus
+    app.kubernetes.io/instance: code-with-quarkus
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: code-with-quarkus
+    app.kubernetes.io/part-of: sample-app
+    app.openshift.io/runtime: quarkus
+  name: code-with-quarkus
+spec:
+  host: code-with-quarkus-helloworld.apps.cluster-9b4gd.9b4gd.sandbox1038.opentlc.com
+  port:
+    targetPort: "8081"
+  to:
+    kind: Service
+    name: code-with-quarkus
+    weight: 100
+  wildcardPolicy: None
