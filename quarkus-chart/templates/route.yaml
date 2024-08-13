@@ -11,7 +11,6 @@ metadata:
     app.openshift.io/runtime: quarkus
   name: code-with-quarkus
 spec:
-  host: {{ .Values.host }}
   port:
     targetPort: "8081"
   to:
