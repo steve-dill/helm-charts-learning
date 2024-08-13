@@ -29,7 +29,7 @@ spec:
         deployment: code-with-quarkus
     spec:
       containers:
-      - image: {{ Values.image }}
+      - image: {{ .Values.image }}
         imagePullPolicy: Always
         name: code-with-quarkus
         ports:
