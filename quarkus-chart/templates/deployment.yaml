@@ -29,7 +29,7 @@ spec:
         deployment: code-with-quarkus
     spec:
       containers:
-      - image: quay.io/sdill/quarkus-example:latest
+      - image: {{ Values.image }}
         imagePullPolicy: Always
         name: code-with-quarkus
         ports:
