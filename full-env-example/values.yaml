@@ -1,4 +1,4 @@
 app1: 
-  enabled: false
+  enabled: true
 app2: 
   enabled: true
