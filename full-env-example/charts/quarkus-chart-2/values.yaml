@@ -1,2 +1,2 @@
 image: quay.io/sdill/quarkus-example:latest
-name: sample-app-2
+host: sample-quarkus-app
