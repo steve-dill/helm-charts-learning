@@ -11,3 +11,4 @@ quarkus-chart:
 tags:
   frontend: true
   groupa: false
+  backend: true
