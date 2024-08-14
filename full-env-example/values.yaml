@@ -6,3 +6,8 @@ app2:
 #this doesn't work when you declare an alias, use the alias
 quarkus-chart:
   image: brokenimage:latest
+
+
+tags:
+  frontend: true
+  groupa: false

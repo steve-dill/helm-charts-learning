@@ -29,8 +29,14 @@ dependencies:
     alias: app1
     repository: "file://../quarkus-chart/"
     condition: app1.enabled
+    tags:
+      - frontend
+      - groupa
   - name: quarkus-chart-2
     version: 0.1.0
     alias: app2
     repository: "file://../quarkus-chart-2/"
     condition: app2.enabled
+    tags:
+      - backend
+      - groupa
