@@ -1,8 +1,9 @@
 app1: 
   enabled: true
-  image: brokenimage2:latest
+  #image: brokenimage2:latest
 app2: 
   enabled: true
 
+#this doesn't work when you declare an alias, use the alias
 quarkus-chart:
   image: brokenimage:latest
