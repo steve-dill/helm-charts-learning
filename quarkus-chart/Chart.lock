@@ -1,0 +1,6 @@
+dependencies:
+- name: sample-lib-chart
+  repository: file://../sample-lib-chart
+  version: 0.1.0
+digest: sha256:e87ec2e354e4e103cfd0e9e160e9b7851e3c8a06a6a053620a16f2c8f7f0dd05
+generated: "2024-08-14T14:06:03.692840866-04:00"

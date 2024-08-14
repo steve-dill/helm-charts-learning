@@ -1,3 +1,4 @@
+{{- define "sample-lib-chart.service" -}}
 apiVersion: v1
 kind: Service
 metadata:
@@ -20,3 +21,4 @@ spec:
     deployment: {{ .Values.name }}
   sessionAffinity: None
   type: ClusterIP
+{{- end -}}
