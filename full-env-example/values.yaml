@@ -2,7 +2,7 @@ app1:
   enabled: true
   image: quay.io/sdill/quarkus-example:latest
 app2:
-  enabled: true
+#  enabled: true
 #this doesn't work when you declare an alias, use the alias
 quarkus-chart:
   image: brokenimage:latest
