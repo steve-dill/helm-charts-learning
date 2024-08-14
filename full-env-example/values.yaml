@@ -1,5 +1,6 @@
 app1: 
   enabled: true
+  image: brokenimage2:latest
 app2: 
   enabled: true
 
