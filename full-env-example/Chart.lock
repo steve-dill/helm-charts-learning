@@ -6,4 +6,4 @@ dependencies:
   repository: file://../quarkus-chart-2/
   version: 0.1.0
 digest: sha256:b91f601004e5f91ff9010e45251fbf35e75c70c803e2e1e89ebccea2942972f2
-generated: "2024-08-14T12:06:06.678813215-04:00"
+generated: "2024-08-14T12:07:58.303292308-04:00"
