@@ -1,9 +1,14 @@
-app1: 
+app1:
   enabled: true
-  #image: brokenimage2:latest
-app2: 
-  enabled: true
-
+  image: quay.io/sdill/quarkus-example:latest
+  #app2:
+#  enabled: true
 #this doesn't work when you declare an alias, use the alias
 quarkus-chart:
   image: brokenimage:latest
+
+
+tags:
+  frontend: true
+  groupa: false
+  backend: true

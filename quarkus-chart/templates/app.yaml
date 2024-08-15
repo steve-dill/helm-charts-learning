@@ -1,0 +1,8 @@
+---
+{{- include "sample-lib-chart.deployment" . }}
+
+---
+{{- include "sample-lib-chart.service" . }}
+
+---
+{{- include "sample-lib-chart.route" . }}
